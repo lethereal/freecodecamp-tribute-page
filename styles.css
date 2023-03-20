@@ -1,0 +1,58 @@
+html {
+  display: flex;
+  background-color: rgba(1, 0, 87, 34);
+  width: 100%;
+  color: rgba(255,255,255,0.8);
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+}
+
+#title {
+  font-weight: 990%;
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  min-width: 30%;
+  min-height: 30%;
+  align-items: center;
+}
+
+figure {
+  background-color: rgb(69,66,221,0.2);
+  margin: auto;
+  padding: 30px;
+  justify-content: center;
+  text-align: left;
+  width: 76%;
+  min-width: 10%;
+}
+
+#img-caption {
+  font-size: 0.6rem;
+  font-style: italic;
+  text-align: left;
+}
+
+#tribute-info {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(69,66,221,0.9);
+}
+
+a:onclick {
+  color:red;
+}
